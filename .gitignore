@@ -1,4 +1,6 @@
 #Entorno virtual
 env/
+#El archivo .gitignore
+!.gitignore
 
 
