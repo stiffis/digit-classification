@@ -1,6 +1,6 @@
 # Proyecto 2 de Introducción a las Ciencias de la Computación
-Otra vez amanecidas 😴
-Pongan emojis tambien, para que IAN nos apruebe 👍
+Otra vez amanecidas 😴</p>
+Pongan emojis tambien, para que IAN nos apruebe 👍</p>
 ##Instrucciones de instalación
 1. Clonar el proyecto
 2. Crear un entorno virtual en el directorio raiz
