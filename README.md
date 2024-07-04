@@ -16,7 +16,7 @@ Pongan emojis tambien, para que IAN nos apruebe 👍</p>
 4. Instalar las dependencias con:
     >pip install -r requirements.txt
 ## Comandos principales para navegar por Git Bash:
-- >git init
+- >git init</p>
     Inicia el repositorio local.
 - >cd <"nombre del directorio/carpeta">
     Cambia la direccion de carpeta/directorio en la que te encuentres.
