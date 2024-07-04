@@ -51,7 +51,8 @@ Pongan emojis tambien, para que IAN nos apruebe 👍</p>
     >git log
 - Mostrar las diferencias entre commits:
     >git diff
-
+- Cuando se quiera descativar el entorno virtual:
+    >deactivate
 ## Flujo de trabajo 
 - Una vez lista la instalación del proyecto y sus dependencias, comenzaran a modificar/crear los archivos que consideren necesarios para realizar la parte que se les designo.
     - Cuando tengan lo necesario, subirlo al GitHub para que los demás podamos visualizarlo, hacer sugerencias, o continuar con el proyecto. Pero subiran solo la rama con su nombre osea (>git push origin <"nombre de la rama">) para que no interfiera ni malogre el producto final.
