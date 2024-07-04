@@ -53,4 +53,9 @@ Pongan emojis tambien, para que IAN nos apruebe 👍</p>
     >git diff
 
 ## Flujo de trabajo 
-- Una vez listo la instalación del proyecto y sus dependencias, comenzaran a modificar/crear los archivos que consideren necesarios, les dejaré una lista con los comandos principales para navegar sobre "Git bash"
+- Una vez lista la instalación del proyecto y sus dependencias, comenzaran a modificar/crear los archivos que consideren necesarios para realizar la parte que se les designo.
+    - Cuando tengan lo necesario, subirlo al GitHub para que los demás podamos visualizarlo, hacer sugerencias, o continuar con el proyecto. Pero subiran solo la rama con su nombre osea (>git push origin <"nombre de la rama">) para que no interfiera ni malogre el producto final.
+    - Cuando quieran obtener los cambios o aportes de las demás ramas ya sea por que lo necesitan para continuar el proyecto o mirar el progreso usar (git pull origin <"nombre la de rama">).
+    - Mantener comunicación frecuente ya que este proyecto es colectivo, por lo que tendremos que ayudarnos unos a otros. No olviden pedir ayuda o avisar antes de hacer algun pull o push.
+    - Cuando tengan que añadir librerias por algun motivo avisar a los demás para editar (requirements.txt).
+    - Buena suerte! 😁
