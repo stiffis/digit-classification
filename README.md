@@ -6,7 +6,8 @@ Pongan emojis tambien, para que IAN nos apruebe 👍</p>
 2. Crear un entorno virtual en el directorio raiz con:
     >python -m venv env
 3. Activar el entorno virtual:
-    >env\Scripts\activate
+    >env\Scripts\activate</p>
+    
     En caso no funcione:</p>
     - Abre PowerShell como administrador</p>
     - Y copiar la siguiente línea (darle Y a todo):</p>
