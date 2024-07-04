@@ -10,7 +10,7 @@ Pongan emojis tambien, para que IAN nos apruebe 👍</p>
     
     En caso no funcione:</p>
     - Abre PowerShell como administrador</p>
-    - Y copiar la siguiente línea (darle Y a todo):</p>
+    - Y copiar la siguiente línea (darle "Y" a todo):</p>
         >Set-ExecutionPolicy RemoteSigned -Scope CurrentUser</p>
     - Vuelve a intentar activar el entorno virtual
 4. Instalar las dependencias con:
