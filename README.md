@@ -16,12 +16,41 @@ Pongan emojis tambien, para que IAN nos apruebe 👍</p>
 4. Instalar las dependencias con:
     >pip install -r requirements.txt
 ## Comandos principales para navegar por Git Bash:
-- >git init</p>
-    Inicia el repositorio local.
-- >cd <"nombre del directorio/carpeta">
-    Cambia la direccion de carpeta/directorio en la que te encuentres.
-- >cd ..
-    Cambia a la direccion de carpeta/directorio anterior.
+- Inicia el repositorio local.
+    > git init
+- Cambia la direccion de carpeta/directorio en la que te encuentres.
+    > cd <"nombre del directorio/carpeta a moverse">
+    
+- Cambia a la direccion de carpeta/directorio anterior.
+    >cd ..
+- Verificar el estado del repositorio local.
+    >git status
+- Empezar a hacer seguimiento  los archivos.
+    >git add <"nombre del archivo">
+- Hacer un "screenshot" o una salvaguardo de lo hecho hasta ese momento.
+    >git commit -m "mensaje descriptivo de lo hecho"    
+- Empujar los cambios al GitHub(cuidado)‼️‼️.
+    >git push origin <"nombre de su rama">
+- Obtener cambios del GitHub.
+    >git pull origin <"nombre la de rama">
+- Crear nueva rama.
+    >git branch <"nombre de la rama">
+- Moverse entre ramas.
+    >git checkout <"nombre de la rama">
+- Lista de las ramas existentes.
+    >git branch
+- Fusionar ramas con la actual.
+    >git merge <"nombre de la rama a fusionar">
+- Obtener todas las ramas del repositorio remoto.
+    >git fetch
+- Eliminar rama local.
+    >git branch -d <"nombre de la rama a eliminar">
+- Eliminar una rama del GitHub(cuidado)‼️‼️.
+    >git push origin --delete <"nombre de la rama">
+- Mostrar el historial de commits:
+    >git log
+- Mostrar las diferencias entre commits:
+    >git diff
 
 ## Flujo de trabajo 
 - Una vez listo la instalación del proyecto y sus dependencias, comenzaran a modificar/crear los archivos que consideren necesarios, les dejaré una lista con los comandos principales para navegar sobre "Git bash"
