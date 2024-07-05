@@ -1,10 +1,10 @@
 import cv2
 
-mi_imagen = cv2.imread("imagen_buena.pnge", cv2.IMREAD_GRAYSCALE)
+mi_imagen = cv2.imread("imagen_buena.png", cv2.IMREAD_GRAYSCALE)
 imagen_pequena = cv2.resize(mi_imagen,(8,8))
 
 #invertimos los colores
-
+#aqui se pued usar for
 i = 0
 while i <= 7:
     j = 0
@@ -12,9 +12,6 @@ while i <= 7:
         imagen_pequena[i][j] = 255 - imagen_pequena[i][j]
         j += 1
     i += 1
-for x in range(8):
-    for y in range():
-        imagen_pequena[x][y] = 255 - imagen_pequena[x][y]
 
 # aplicamos el martillo bonk ( 255 baja a 16 )
 
