@@ -1,6 +1,5 @@
-# Proyecto 2 de Introducción a las Ciencias de la Computación
-Otra vez amanecidas 😴</p>
-Pongan emojis tambien, para que IAN nos apruebe 👍</p>
+# Digit Classification
+This is a 1st semester project at UTEC, it classifies a written digit. It uses the Digit DataSet from Scikit-Learn.</p>
 ## Instrucciones de instalación
 1. Clonar el proyecto
 2. Crear un entorno virtual en el directorio raiz con:
@@ -20,7 +19,6 @@ Pongan emojis tambien, para que IAN nos apruebe 👍</p>
     > git init
 - Cambia la direccion de carpeta/directorio en la que te encuentres.
     > cd <"nombre del directorio/carpeta a moverse">
-    
 - Cambia a la direccion de carpeta/directorio anterior.
     >cd ..
 - Verificar el estado del repositorio local.
