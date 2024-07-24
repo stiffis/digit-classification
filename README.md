@@ -1,62 +1,61 @@
 # Digit Classification
 This is a 1st semester project at UTEC, it classifies a written digit. It uses the Digit DataSet from Scikit-Learn.</p>
-## Instrucciones de instalación
-1. Clonar el proyecto
-2. Crear un entorno virtual en el directorio raiz con:
+## Installation
+1. Clone the project
+2. Create a virtual environment in the root directory with:
     >python -m venv env
-3. Activar el entorno virtual:
+3. Activate the virtual environment:
     >env\Scripts\activate</p>
-    
-    En caso no funcione:</p>
-    - Abre PowerShell como administrador</p>
-    - Y copiar la siguiente línea (darle "Y" a todo):</p>
+    In case it doesn't work:</p>
+    - Open PowerShell as administrator</p>
+    - And copy the following line (give ‘Y’ to everything):</p>
         >Set-ExecutionPolicy RemoteSigned -Scope CurrentUser</p>
-    - Vuelve a intentar activar el entorno virtual
-4. Instalar las dependencias con:
+    - Try again to activate the virtual environment.
+4. Install the dependencies with:
     >pip install -r requirements.txt
-## Comandos principales para navegar por Git Bash:
-- Inicia el repositorio local.
+## Main commands to navigate Git Bash:
+- Start the local repository.
     > git init
-- Cambia la direccion de carpeta/directorio en la que te encuentres.
-    > cd <"nombre del directorio/carpeta a moverse">
-- Cambia a la direccion de carpeta/directorio anterior.
-    >cd ..
-- Verificar el estado del repositorio local.
+- Change the address of the folder/directory you are in.
+    > cd <‘name of the directory/folder to move’>
+- Changes to the previous folder/directory address.
+    >cd ...
+- Check the status of the local repository.
     >git status
-- Empezar a hacer seguimiento  los archivos.
-    >git add <"nombre del archivo">
-- Hacer un "screenshot" o una salvaguardo de lo hecho hasta ese momento.
-    >git commit -m "mensaje descriptivo de lo hecho"    
-- Empujar los cambios al GitHub(cuidado)‼️‼️.
-    >git push origin <"nombre de su rama">
-- Obtener cambios del GitHub.
-    >git pull origin <"nombre la de rama">
-- Crear nueva rama.
-    >git branch <"nombre de la rama">
-- Moverse entre ramas.
-    >git checkout <"nombre de la rama">
-- Lista de las ramas existentes.
+- Start tracking files.
+    >git add <‘filename’>
+- Make a screenshot or a save of what has been done so far.
+    >git commit -m ‘descriptive message about what's been done’   
+- Push the changes to GitHub(care)‼️‼️.
+    >git push origin <‘name of your branch’>
+- Get changes from GitHub.
+    >git pull origin <‘name of branch’>
+- Create new branch.
+    >git branch <‘name of the branch’>
+- Move between branches.
+    >git checkout <‘name of branch’>
+- List of existing branches.
     >git branch
-- Fusionar ramas con la actual.
-    >git merge <"nombre de la rama a fusionar">
-- Obtener todas las ramas del repositorio remoto.
+- Merge branches with the current branch.
+    >git merge <‘name of branch to be merged’>
+- Fetch all branches from the remote repository.
     >git fetch
-- Eliminar rama local.
-    >git branch -d <"nombre de la rama a eliminar">
-- Eliminar una rama del GitHub(cuidado)‼️‼️.
-    >git push origin --delete <"nombre de la rama">
-- Mostrar el historial de commits:
+- Remove local branch.
+    >git branch -d <‘name of branch to remove’>
+- Remove a branch from GitHub(care)‼️‼️.
+    >git push origin --delete <‘name of the branch’>
+- Show commit history:
     >git log
-- Mostrar las diferencias entre commits:
+- Show the differences between commits:
     >git diff
-- Cuando se quiera descativar el entorno virtual:
+- When you want to deactivate the virtual environment:
     >deactivate
-- Cuando quieran agregar mas dependencias al (requirements.txt)
+- When you want to add more dependencies to the (requirements.txt)
     >pip freeze > requirements.txt
-## Flujo de trabajo 
-- Una vez lista la instalación del proyecto y sus dependencias, comenzaran a modificar/crear los archivos que consideren necesarios para realizar la parte que se les designo.
-    - Cuando tengan lo necesario, subirlo al GitHub para que los demás podamos visualizarlo, hacer sugerencias, o continuar con el proyecto. Pero subiran solo la rama con su nombre osea (>git push origin <"nombre de la rama">) para que no interfiera ni malogre el producto final.
-    - Cuando quieran obtener los cambios o aportes de las demás ramas ya sea por que lo necesitan para continuar el proyecto o mirar el progreso usar (git pull origin <"nombre la de rama">).
-    - Mantener comunicación frecuente ya que este proyecto es colectivo, por lo que tendremos que ayudarnos unos a otros. No olviden pedir ayuda o avisar antes de hacer algun pull o push.
-    - Cuando tengan que añadir librerias por algun motivo avisar a los demás para editar (requirements.txt).
-    - Buena suerte! 😁
+## Workflow 
+- Once the installation of the project and its dependencies are ready, you will start modifying/creating the files you consider necessary to carry out the part you have been assigned.
+    - When you have what you need, upload it to GitHub so that others can view it, make suggestions, or continue with the project. But you will upload only the branch with your name (>git push origin <‘branch name’>) so that it doesn't interfere with the final product.
+    - When you want to get the changes from the other branches either because you need them to continue the project or to look at the progress use (git pull origin <‘branch name’>).
+    - Maintain frequent communication as this is a collective project, so we will need to help each other. Don't forget to ask for help or let us know before you do a pull or push.
+    - When you have to add libraries for some reason, let the others know to edit (requirements.txt).
+    - Good luck! 😁
