@@ -5,7 +5,7 @@ import pandas as pd
 import cv2
 # this is for the google colab notebooks
 #import google.colab.files as files
-
+#
 #
 #------- DISTANCIA EUDLIDIANA ------
 def euclidean_distance(matrix1, matrix2):
