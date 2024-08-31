@@ -6,8 +6,8 @@ import cv2
 # this is for the google colab notebooks
 #import google.colab.files as files
 
-
-#------ DISTANCIA EUDLIDIANA ------
+#
+#------- DISTANCIA EUDLIDIANA ------
 def euclidean_distance(matrix1, matrix2):
     return np.sqrt(np.sum((matrix1 - matrix2) ** 2))
 
